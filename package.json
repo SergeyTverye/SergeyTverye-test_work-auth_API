@@ -20,7 +20,7 @@
     "prisma": "^5.16.2"
   },
   "devDependencies": {
-    "@prisma/client": "^3.7.0",
+    "@prisma/client": "^5.16.2",
     "@types/bcryptjs": "^2.4.2",
     "@types/express": "^4.17.12",
     "@types/express-session": "^1.17.3",

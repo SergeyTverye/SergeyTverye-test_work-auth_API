@@ -36,10 +36,11 @@
     docker-compose up -d
     ```
 
-4. Выполните миграции базы данных:
+4. Выполните миграции базы данных и сгенерируйте Prisma Client:
 
     ```sh
-    npx prisma migrate deploy
+    npx prisma migrate dev --name init
+
     ```
 
 5. Запустите сервер:
